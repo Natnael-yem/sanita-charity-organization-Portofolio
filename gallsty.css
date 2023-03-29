@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    padding:0;
+    
+}
+body{
+   /*  background-image: linear-gradient(62deg, #4579bdf5 0%, #f8f3f3f5 100% );
+   */
+   background-repeat: no-repeat;
+    /* height: 100vh; */
+}
+
+.gcontainer{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    overflow: hidden;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-left: 35px;
+} 
+/* image 1 and image 5 */
+.Img1{
+    height: 200px; 
+    flex-basis: 45%; 
+    background-image: url(images/p2.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 10px; 
+    cursor: pointer;
+    transition: 1s;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+}
+.Img5{
+    height: 200px;
+    flex-basis: 45%; 
+    background-image: url(images/p3n.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 10px; 
+    cursor: pointer;
+    transition: 1s;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+}
+.one {
+    position: relative;
+    top:0;
+    left: -4510px; 
+    background-color: rgba(0, 0, 0, .7);
+    height: 97%;
+    width: 97%;
+    text-align: center;
+    transition: .8s;
+    border-radius:10px;
+}
+.one h1{
+    color: white;
+    position: relative;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    transition: .5s;
+}
+.five{
+    position: relative;
+    top:0;
+    left: -4510px; 
+    background-color: rgba(0, 0, 0, .7);
+    height: 97%;
+    width: 97%;
+    text-align: center;
+    transition: .5s;
+    border-radius:10px;
+}
+.five h1{
+    color: white;
+    position: relative;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    transition: .5s;
+}
+.Img1:hover .one{
+    position: relative;
+    top:0;
+    left:0;
+    cursor: pointer;
+}
+.Img5:hover .five{
+    position: relative;
+    top:0;
+    left:0;
+    cursor: pointer;
+}
+/* end */
+/* image 2 and image 6 */
+.Img2{
+    height: 200px;
+    flex-basis: 45%; 
+    background-image: url(images/p7n.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 10px; 
+    cursor: pointer;
+    perspective: 200px;
+    transition: 1s;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+}
+.Img6{
+    height: 200px;
+    flex-basis: 45%; 
+    background-image: url(images/p11.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 10px; 
+    cursor: pointer;
+    perspective: 200px;
+    transition: 1s;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+}
+.Img9{
+    height: 200px;
+    flex-basis: 45%; 
+    background-image: url(images/sc.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 10px; 
+    cursor: pointer;
+    perspective: 200px;
+    transition: 1s;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+}
+.two{
+    position: relative;
+    top:0;
+    left:0;
+    height: 98%;
+    width: 98%;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, .7);
+    transform-origin: top center;
+    transform: rotateX(-125deg);
+    opacity: 0;
+    transition: .5s;
+}
+.six{
+    position: relative;
+    top:0;
+    left:0;
+    height: 98%;
+    width: 98%;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, .7);
+    transform-origin: top center;
+    transform: rotateX(-125deg);
+    opacity: 0;
+    transition: .5s;
+}
+.nine{
+    position: relative;
+    top:0;
+    left:0;
+    height: 98%;
+    width: 98%;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, .7);
+    transform-origin: top center;
+    transform: rotateX(-125deg);
+    opacity: 0;
+    transition: .5s;
+}
+.two h1{
+    color: white;
+    position: relative;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    transition: .5s;
+}
+.six h1{
+    color: white;
+    position: relative;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    transition: .5s;
+}
+.nine h1{
+    color: white;
+    position: relative;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    transition: .5s;
+}
+.Img2:hover .two{
+    transform: rotateX(0deg);
+    opacity: 1;
+}
+.Img6:hover .six{
+    transform: rotateX(0deg);
+    opacity: 1;
+}
+.Img9:hover .nine{
+    transform: rotateX(0deg);
+    opacity: 1;
+}
+
+/* end */
+/* image 3 and image 7 */
+.Img3{
+    height: 200px;
+    flex-basis: 45%; 
+    background-image: url(images/sc1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;  
+    margin: 10px; 
+    transition: 1s;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+}
+.Img7{
+    height: 200px;
+    flex-basis: 45%; 
+    background-image: url(images/p7n.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;  
+    margin: 10px; 
+    transition: 1s;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+}
+.three h1{
+    color: white;
+    position: relative;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    transition: .5s;
+}
+.seven h1{
+    color: white;
+    position: relative;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    transition: .5s;
+}
+.three{
+    position: relative;
+    top:0;
+    left:0;
+    height: 98%;
+    width: 98%;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, .7);
+    transform-origin: top center;
+    opacity: 0;
+    transition: .5s;
+}
+.seven{
+    position: relative;
+    top:0;
+    left:0;
+    height: 98%;
+    width: 98%;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, .7);
+    transform-origin: top center;
+    opacity: 0;
+    transition: .5s;
+}
+.Img3:hover .three{
+    opacity: 1;
+}
+.Img7:hover .seven{
+    opacity: 1;
+}
+/* image 4 and image 8 */
+.Img4{
+    height: 200px;
+    flex-basis: 45%; 
+    background-image: url(images/sc2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 10px; 
+    transition: 1s;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+}  
+.Img8{
+    height: 200px;
+    flex-basis: 45%; 
+    background-image: url(images/sc3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 10px; 
+    transition: 1s;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+}  
+
+.four h1{
+    color: white;
+    position: relative;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    transition: .5s;
+}
+.eight h1{
+    color: white;
+    position: relative;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    transition: .5s;
+}
+.four{
+    position: relative;
+    top:0;
+    left:0;
+    height: 98%;
+    width: 98%;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, .7);
+    transform-origin: top center;
+    opacity: 0;
+    transition: .5s;
+}
+.eight{
+    position: relative;
+    top:0;
+    left:0;
+    height: 98%;
+    width: 98%;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, .7);
+    transform-origin: top center;
+    opacity: 0;
+    transition: .5s;
+}
+.Img4:hover .four{
+    opacity: 1;
+}
+.Img8:hover .eight{
+    opacity: 1;
+}
+@media only screen and (min-width:768px){
+    .carousel{
+        width:850px;
+        height:400px;    
+    }
+    .carousel-slides img{
+        width:850px;
+    }
+    .Img1, .Img2, .Img3, .Img4, .Img5, .Img6, .Img7, .Img8, .Img9{
+        flex-basis:45%;
+        margin: 10px;
+    }
+}
+@media only screen and (min-width:1200px){
+    .carousel{
+        width:1150px;
+        height:500px;
+    }
+    .carousel-slides img{
+        width:1150px;
+    }
+    .Img1, .Img2, .Img3, .Img4, .Img5, .Img6, .Img7, .Img8, .Img9{
+        flex-basis:22%;
+         margin: 10px; 
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
